@@ -330,3 +330,21 @@ footer{padding:46px 0 34px}
   .contact h2{font-size:32px}
   .footer-grid{grid-template-columns:1fr}
 }
+
+/* Language switch */
+.lang-switch{display:inline-flex;align-items:center;gap:7px;font-size:11px;letter-spacing:.08em;color:#6d7b8f;white-space:nowrap}
+.lang-switch a{color:var(--blue);font-weight:700}
+.lang-switch strong{color:#0b1730}
+.en-site .hero{
+  background:
+    linear-gradient(90deg,#fff 0%,#fff 40%,rgba(255,255,255,.94) 48%,rgba(255,255,255,.24) 70%,rgba(255,255,255,.05) 100%),
+    url("mountains-hero-en.jpg") center right/57% 100% no-repeat;
+}
+@media(max-width:1050px){.lang-switch{display:none}}
+@media(max-width:720px){
+  .en-site .hero{
+    background:
+      linear-gradient(180deg,#fff 0%,rgba(255,255,255,.98) 47%,rgba(255,255,255,.55) 70%,rgba(255,255,255,.15) 100%),
+      url("mountains-hero-en.jpg") center bottom/cover no-repeat;
+  }
+}
