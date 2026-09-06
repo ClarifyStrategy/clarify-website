@@ -340,11 +340,11 @@ footer{padding:46px 0 34px}
     linear-gradient(90deg,#fff 0%,#fff 40%,rgba(255,255,255,.94) 48%,rgba(255,255,255,.24) 70%,rgba(255,255,255,.05) 100%),
     url("mountains-hero-en.jpg") center right/57% 100% no-repeat;
 }
-@media(max-width:1050px){.lang-switch{display:none}}
+@media(max-width:1050px){.lang-switch{display:none}.mobile-nav-note a{display:inline!important}}
 @media(max-width:720px){
   .en-site .hero{
     background:
       linear-gradient(180deg,#fff 0%,rgba(255,255,255,.98) 47%,rgba(255,255,255,.55) 70%,rgba(255,255,255,.15) 100%),
-      url("mountains-hero-en.jpg") center bottom/cover no-repeat;
+      url("mountains-hero-en.jpg") center bottom/auto 52% no-repeat;
   }
 }
